@@ -25,14 +25,17 @@ function UserForm(){
 
     
     return(
-        <form>
-            <input type="file" onChange={changeHandler} />
-                <div className="output">
-                    {error && <div className="error">{error}</div>}
-                    {file && <div className="filename">{file.name}</div>}
-                    {file &&  <ProgressBar file={file} setFile={setFile} />}
-                </div>
-        </form>
+        <div className="container">
+            <hr></hr>
+            <form>
+                <input type="file" onChange={changeHandler} />
+                    <div className="output">
+                        {error && <div className="error">{error}</div>}
+                        {file && <div className="filename">{file.name}</div>}
+                        {file &&  <ProgressBar file={file} setFile={setFile} />}
+                    </div>
+            </form>
+        </div>
     )
     
 }
