@@ -1,8 +1,9 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from "react";
 import { projectstorage, projectfirestore, timestamp } from "../firebase/config";
 import { useStorage } from "../hooks/useStorage";
-import { useAuth } from "../hooks/useAuth";
 
+// eslint-disable-next-line no-unused-vars
 const useFirestore = (collection) => {
     const[docs, setDocs] = useState([]);
     useEffect(()=>{
@@ -11,10 +12,15 @@ const useFirestore = (collection) => {
            let documents =[];
               snapshot.docs.forEach(doc=>{
                   documents.push({...doc.data(), id: doc.id});
-              }
+              });
+              setDocs(documents);
         });
-        setDocs(documents);
-        
+       
+        return ()=> collectionRef();
+
     }, [collection]);
     return {docs};
+    
 }
+
+export default useFirestore;
