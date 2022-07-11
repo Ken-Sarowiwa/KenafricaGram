@@ -15,9 +15,11 @@ const useFirestore = (collection) => {
               });
               setDocs(documents);
         });
-       
-        return ()=> collectionRef();
 
+        return ()=>{
+            collectionRef.onSnapshot(null);
+        }
+        
     }, [collection]);
     return {docs};
     
