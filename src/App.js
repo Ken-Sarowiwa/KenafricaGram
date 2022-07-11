@@ -11,7 +11,7 @@ function App() {
       <Title/>
       <UserForm/>
       <ImageGrid setselectedImage={setSelectedImage}/>
-      <Modal selectedImage={selectedImage}/>
+      {selectedImage&& <Modal selectedImage={selectedImage} setSelectedImage = {setSelectedImage} />}
     </div>
   );
 }

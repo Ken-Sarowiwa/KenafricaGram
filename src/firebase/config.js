@@ -3,6 +3,10 @@ import firebase from 'firebase/compat/app';
 import "firebase/compat/storage";
 import "firebase/compat/firestore";
 import { initializeApp } from "firebase/app";
+
+
+
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -25,4 +29,5 @@ const projectstorage = firebase.storage();
 const projectfirestore = firebase.firestore();
 const timestamp = firebase.firestore.FieldValue.serverTimestamp;
 
-export{projectfirestore, projectstorage, timestamp, app};
+
+export{projectfirestore, projectstorage, timestamp, app,};
