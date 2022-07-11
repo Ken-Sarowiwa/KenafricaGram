@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/KenafricaGram/static/css/main.3820e3cc.chunk.css",
+    "main.js": "/KenafricaGram/static/js/main.b7d0a16d.chunk.js",
+    "main.js.map": "/KenafricaGram/static/js/main.b7d0a16d.chunk.js.map",
+    "runtime-main.js": "/KenafricaGram/static/js/runtime-main.77193eab.js",
+    "runtime-main.js.map": "/KenafricaGram/static/js/runtime-main.77193eab.js.map",
+    "static/js/2.1d0a5cc0.chunk.js": "/KenafricaGram/static/js/2.1d0a5cc0.chunk.js",
+    "static/js/2.1d0a5cc0.chunk.js.map": "/KenafricaGram/static/js/2.1d0a5cc0.chunk.js.map",
+    "index.html": "/KenafricaGram/index.html",
+    "precache-manifest.c4def3a5b0a2903c732d2063372ccca4.js": "/KenafricaGram/precache-manifest.c4def3a5b0a2903c732d2063372ccca4.js",
+    "service-worker.js": "/KenafricaGram/service-worker.js",
+    "static/css/main.3820e3cc.chunk.css.map": "/KenafricaGram/static/css/main.3820e3cc.chunk.css.map",
+    "static/js/2.1d0a5cc0.chunk.js.LICENSE.txt": "/KenafricaGram/static/js/2.1d0a5cc0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77193eab.js",
+    "static/js/2.1d0a5cc0.chunk.js",
+    "static/css/main.3820e3cc.chunk.css",
+    "static/js/main.b7d0a16d.chunk.js"
+  ]
+}
